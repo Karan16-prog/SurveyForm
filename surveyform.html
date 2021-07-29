@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="surveypage.css">
+</head>
+<main>
+  <h1 id="title">Fight Club Form</h1>
+  <p id="description">Thank you for taking time to help us improve the platform</p>
+  <form id = "survey-form">
+    <label for="name-label">Name</label>
+    <input type="text" id="name" name="name-label" placeholder="Tyler Durden"><br><br>
+    <label for="email-label">Email</label>
+    <input type="email" id="email" name="email-label" placeholder="durden.tyler@fightclub.com"><br><br>
+    <label for="number-label">Number</label>
+    <input type="tel" id="tel" name="number-label" placeholder="(288) 555-1534"><br><br>
+    <label for="dropdown">Which is the first rule of Fight Club</label>
+    <select id="dropdown" name="dropdown">
+      <option value="1">Fight Club</option>
+      <option value="2">No Country for Old Men</option>
+      <option value="3">Memories of Murder</option>
+      <option value="4">Handmaiden</option>
+    </select>
+    <p>Would you recommend Fight Club to any of your friends</p>
+    <label for="aio"></label>
+    <input type="radio" name="aio" id="radio" value="Definitely">
+    <label>Definitely</label><br><br>
+    <input type="radio" name="aio" id="radio2" value="Maybe">
+    <label>Maybe</label><br><br>
+    <input type="radio" name="aio" id="radio3" value="Not Sure">
+    <label>Not Sure</label><br><br>
+    <p>What would you like to see improved</p>
+    <input type="checkbox" name="checkbox" value="Gym">
+    <label>Gym</label><br><br>
+    <input type="checkbox" value="Rules">
+    <label>Rules</label><br><br>
+    <input type="checkbox" value="Timings">
+    <label>Timings</label><br><br>
+    <input type="checkbox" value="Applications">
+    <label>Applications</label><br><br>
+    <p>Why do you want to join the Fight Club</p>
+    <textarea name="name" rows="8" cols="80">Enter</textarea><br><br>
+    <button type="submit" form="survey-form" value="Submit">Submit</button>
+  </form>
+</html>
